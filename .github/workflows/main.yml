@@ -10,4 +10,5 @@ jobs:
       - uses: actions/checkout@v2
       - id: myCompositeAction
         uses: Colin-Yeo/GitHubActions@v1
+      - run: echo "Bye bye"
         shell: bash
