@@ -10,3 +10,4 @@ jobs:
       - uses: actions/checkout@v2
       - id: myCompositeAction
         uses: Colin-Yeo/GitHubActions@v1
+        shell: bash
