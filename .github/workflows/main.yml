@@ -9,6 +9,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - id: myCompositeAction
-        uses: Colin-Yeo/GitHubActions@v1
+        uses: Colin-Yeo/GitHubActions@v2
       - run: echo "Bye bye"
         shell: bash
