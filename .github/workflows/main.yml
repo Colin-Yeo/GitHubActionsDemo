@@ -10,3 +10,5 @@ jobs:
     steps:
       - name: myCompositeAction
         uses: Colin-Yeo/GitHubActions@v3
+        with:
+          repo: 'GitHubActions'
